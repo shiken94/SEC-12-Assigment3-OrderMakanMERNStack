@@ -27,45 +27,51 @@ Order Makan is a full-stack food ordering application powered by the MERN stack.
 ## Screenshots
 
 
+- Home Page
 
 ![img_4.png](img_4.png)
 
 
-![img_5.png](img_5.png)
+- Food browser Page
 
-
-![img_6.png](img_6.png)
-
-
-![img_7.png](img_7.png)
-
-
-![img_8.png](img_8.png)
-
-
-![img_9.png](img_9.png)
-
-
-![img_10.png](img_10.png)
-
-
-![img_11.png](img_11.png)
-
-
-![img_12.png](img_12.png)
-
-
-
-- Hero Section
-
-
-- Products Section
+![img_13.png](img_13.png)
 
 
 - Cart Page
 
+![img_14.png](img_14.png)
 
-- Login Popup
+
+- User Login Popup
+
+![img_15.png](img_15.png)
+
+
+- User Data Entry Delivery Address Page
+
+![img_8.png](img_8.png)
+
+
+- User Order List Page
+
+![img_9.png](img_9.png)
+
+
+- Admin Login Page
+
+![img_10.png](img_10.png)
+
+
+- Admin Add Items Page
+
+![img_11.png](img_11.png)
+
+
+- Admin List Items Page
+
+![img_12.png](img_12.png)
+
+
 
 ## Run Locally
 
@@ -102,12 +108,12 @@ Setup Environment Variables
 ```
   Create .env file in "frontend" folder and store environment Variables
   
-  VITE_BACKEND_URL=YOUR_BACKEND_URL
+  VITE_LOCAL_BACKEND_URL=YOUR_BACKEND_URL
 ```
 ```
   Create .env file in "admin" folder and store environment Variables
   
-  VITE_BACKEND_URL=YOUR_BACKEND_URL
+  VITE_LOCAL_BACKEND_URL=YOUR_BACKEND_URL
 ```
 ```
   Create .env file in "backend" folder and store environment Variables
@@ -116,7 +122,7 @@ Setup Environment Variables
   SALT=YOUR_SALT_VALUE
   MONGO_URL=YOUR_DATABASE_URL
   STRIPE_SECRET_KEY=YOUR_KEY
-  VITE_FRONTEND_URL =YOUR_FRONTEND_URL 
+  VITE_LOCAL_FRONTEND_URL =YOUR_FRONTEND_URL 
 ```
 
 Start the Backend server
@@ -162,25 +168,24 @@ Payment gateway
 Middleware
 ```
 * [JWT-Authentication](https://jwt.io/introduction)
-* [Multer](https://www.npmjs.com/package/multer)
 
 
 🔌 API Endpoint Summary
 
 🍔 Foods
 ```
-Method	Endpoint	        Description
-POST	/api/food/add	    Create new food item (Admin)
-GET	    /api/food/list  	Get list of food (Admin)
-POST	/api/food/remove	Delete food item (Admin)
+Method	Endpoint	            Description
+POST	/api/food/add	        Create new food item (Admin)
+GET	    /api/food/list  	    Get list of food (Admin)
+POST	/api/food/remove	    Delete food item (Admin)
 ```
 
 🛒 Cart
 ```
-Method	Endpoint	        Description
-POST	/api/cart/get	    Get user cart
-POST	/api/cart/add	    Add item to cart
-POST	/api/cart/remove	Remove item from cart
+Method	Endpoint	            Description
+POST	/api/cart/get	        Get user cart
+POST	/api/cart/add	        Add item to cart
+POST	/api/cart/remove	    Remove item from cart
 ```
 
 📦 Orders
@@ -193,15 +198,15 @@ POST	/api/order/userorders	View order for user
 
 👨‍💼 User
 ```
-Method	Endpoint	        Description
-POST	/api/user/register	Register new user
-POST	/api/user/login 	Login existing user
+Method	Endpoint	            Description
+POST	/api/user/register	    Register new user
+POST	/api/user/login 	    Login existing user
 ```
 
-🔐 File Upload (Multer)
+🔐 File Upload
 ```
-Method	Endpoint	Description
-    	/images	    Upload image/file
+Method	Endpoint	    Description
+    	/images	        Upload image/file
 ```
 
 ## Deployment
