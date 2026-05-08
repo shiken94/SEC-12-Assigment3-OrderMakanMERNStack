@@ -104,14 +104,14 @@ const Add = ({url}) => {
               onChange={onChangeHandler}
               value={data.category}
             >
-              <option value="Salad">Salad</option>
-              <option value="Rolls">Rolls</option>
-              <option value="Deserts">Deserts</option>
-              <option value="Sandwich">Sandwich</option>
-              <option value="Cake">Cake</option>
-              <option value="Pure Veg">Pure Veg</option>
-              <option value="Pasta">Pasta</option>
-              <option value="Noodles">Noodles</option>
+              <option value="Malay">Malay</option>
+              <option value="Asian">Asian</option>
+              <option value="Western">Western</option>
+              <option value="Indian">Indian</option>
+              <option value="Italian">Italian</option>
+              <option value="Street Food">Street Food</option>
+              <option value="Healthy & Salad">Healthy & Salad</option>
+              <option value="Desserts">Desserts</option>
             </select>
           </div>
           <div className="add-price flex-col">

@@ -7,8 +7,6 @@ const Cart = () => {
   const {
     food_list,
     cartItems,
-    // setCartItems,
-    // addToCart,
     removeFromCart,
     getTotalCartAmount,
     url
