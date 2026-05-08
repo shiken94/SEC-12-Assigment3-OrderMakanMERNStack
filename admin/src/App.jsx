@@ -1,4 +1,4 @@
- import React from "react";
+import React from "react";
 import Navbar from "./components/Navbar/Navbar";
 import Sidebar from "./components/Sidebar/Sidebar";
 import { Route, Routes } from "react-router-dom";
@@ -10,8 +10,7 @@ import "react-toastify/dist/ReactToastify.css";
 import Login from "./components/Login/Login";
 
 const App = () => {
-  // const url = "https://food-delivery-backend-5b6g.onrender.com";
-    const url = 'http://localhost:3000';
+  const url = import.meta.env.VITE_LOCAL_BACKEND_URL
   return (
     <div>
       <ToastContainer />
