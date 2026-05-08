@@ -153,3 +153,6 @@ backend/.env.*.local
 admin/.env
 admin/.env.local
 admin/.env.*.local
+
+/node_modules
+/package-lock.json
