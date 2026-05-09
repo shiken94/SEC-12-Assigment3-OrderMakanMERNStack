@@ -83,7 +83,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-    cd Order-Makan
+    cd SEC-12-Assigment3-OrderMakanMERNStack
 ```
 Install dependencies (frontend)
 
