@@ -78,7 +78,7 @@ Order Makan is a full-stack food ordering application powered by the MERN stack.
 Clone the project
 
 ```bash
-    git clone https://github.com/shiken94/SEC-12-Main.git -- Folder SEC-12-Assigment3-OrderMakanMERNStack 
+    git clone https://github.com/shiken94/SEC-12-Assigment3-OrderMakanMERNStack.git 
 ```
 Go to the project directory
 
